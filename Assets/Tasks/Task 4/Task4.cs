@@ -7,8 +7,8 @@ public class Task4 : MonoBehaviour
     
     private void Start()
     {
+        _shelfPrefab.GetComponent<BoxCollider>().enabled = false;
+
         Instantiate(_shelfPrefab); // Эту строку кода удалять нельзя
-        
-        Destroy(_shelfPrefab);
     }
 }

@@ -6,8 +6,8 @@ public class Task3 : MonoBehaviour
     private Rigidbody _wallPrefab;
     
     private void Start()
-    {
-        Instantiate(_wallPrefab);
+    {        
         _wallPrefab.isKinematic = false;
+        Instantiate(_wallPrefab);
     }
 }
